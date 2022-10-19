@@ -1,0 +1,142 @@
+ 
+body{
+    width: 80%;
+    margin-left: 110px;
+    margin-right: 100px;
+    border: 1px ;
+    padding:35px;
+    background-image: url(/bg_img.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    font-family:   sans-serif;
+}
+header>h1{
+    background-color: yellow;
+    
+}
+p{
+    width: 90%;
+    font-size: 18px;
+    font-family:   sans-serif;
+    color :rgb(96, 96, 96);
+    word-spacing: 1px;
+    line-height: 20px;
+    font-weight: 8px;
+
+}
+
+.typesofpeople{
+    line-height: 60%;
+}
+
+h1{
+    font-size: 50px;
+    color:rgb(96, 96, 96);
+
+}
+h2{
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    color:rgb(96, 96, 96);
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+h3{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color:rgb(96, 96, 96);
+    font-weight: 100;
+    margin-top: 5px;
+}
+.pic1{
+    margin-left: 0px;
+    object-fit: cover;
+    height: fit-content;
+    width: fit-content;
+}
+figcaption{
+    font-size: 16px;
+    color:rgb(96, 96, 96);
+}
+.pic2{
+    margin-left: 0px;
+    object-fit: cover;
+    height: fit-content;
+    width: fit-content;
+}
+.pic3{
+    margin-left: 0px;
+    object-fit: cover;
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 2px;
+}
+table, th,td{
+    border: 1px solid;
+}
+q{
+    font-style: italic;
+    background-color: darkgrey;
+    
+    line-height: 20px;
+    margin-left: 170px;
+    text-align: center;
+    
+    
+    /* text-align: center;
+    
+    margin-right: 450px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    line-height: 2;
+    font-size: 160%;
+    border-style: solid;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: italic; */
+    
+}
+hr{
+    color: lightgray;
+    height: 2 px;
+    border-bottom: none;
+
+}
+.good{
+    color:rgb(7, 154, 97)
+}
+.bad{
+    color:rgb(242, 79, 79);
+}
+table{
+    border-color: none;
+}
+tr:nth-child(even) {
+    background: rgb(175, 179, 172)
+}
+tr:nth-child(odd) {
+    background: rgb(218, 217, 218)
+}
+th{
+    background: rgb(163, 132, 161)
+
+}
+ul{
+    line-height: 2.5;
+}
+.notification{
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: yellow;
+    width: 80%;
+    margin-left: 0px;
+    font-style: italic;
+    
+}
